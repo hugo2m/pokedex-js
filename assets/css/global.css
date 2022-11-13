@@ -11,13 +11,44 @@ body {
   background-color: #fff;
   height: 100vh;
   height: auto;
-  width: auto;
   border-radius: 1rem;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 100px) {
   .content {
-    max-width: 400px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .content {
+    max-width: 390px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .content {
+    max-width: 590px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .content {
+    max-width: 790px;
+
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content {
+    max-width: 900px;
+
     margin: 0 auto;
   }
 }
