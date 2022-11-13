@@ -6,6 +6,8 @@
   margin: 0;
 }
 
+/* Blackground types pokemon */
+
 .normal {
   background-color: #a6a877;
 }
@@ -61,6 +63,7 @@
   background-color: #f9aec7;
 }
 
+/* Pokemon detail */
 .pokemon {
   text-transform: capitalize;
   margin: 0.5rem;
@@ -69,9 +72,7 @@
   display: flex;
   flex-direction: column;
 }
-.pokemon::first-letter {
-  text-transform: uppercase;
-}
+
 .pokemon .number {
   color: #0d0d0e;
   text-align: right;
@@ -111,6 +112,7 @@
   align-self: flex-end;
 }
 
+/* displays */
 @media screen and (max-width: 300px) {
   .pokemons {
     grid-template-columns: 1fr;
@@ -128,4 +130,22 @@
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+.pagination button {
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #6c79db;
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.65rem;
 }
