@@ -1,6 +1,6 @@
 const pokemonList = document.getElementById("pokemonList")
 const loadMoreButton = document.getElementById("loadMoreButton")
-const limit = 10
+const limit = 4
 let offset = 0
 
 function loadPokemonItens(offset, limit) {

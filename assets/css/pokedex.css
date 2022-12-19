@@ -147,15 +147,6 @@
   }
 }
 
-@media screen and (min-width: 900px) {
-  .pokemons {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: auto;
-    max-width: auto;
-    margin: 0 auto;
-  }
-}
-
 .pagination {
   display: flex;
   flex-direction: row;
